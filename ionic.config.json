@@ -1,0 +1,8 @@
+{
+  "name": "MyJournal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "52f56d49"
+}

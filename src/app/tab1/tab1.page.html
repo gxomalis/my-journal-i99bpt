@@ -9,38 +9,40 @@
 <link rel="stylesheet" href="tab1.page.scss">
 
 <ion-content [fullscreen]="true">
+  <ion-scroll scrollX="true"  scrollY="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">My Journal</ion-title>
     </ion-toolbar>
   </ion-header>
-
+ 
   <body>
   <h1 style="text-align: center;">Welcome to my journal</h1>
+
  
 
-      <div class="container">
+  <div class = "scroll-container">
           <div class="col">
               <img style="border-radius: 35%;" width="40%" src="https://avatars.githubusercontent.com/u/32639906?s=400&u=756053231850f0a676a53c64b75e7fa3ac2b137e&v=4" alt="profile">
   
              
-                <p class="card-text">Γειά! Είμαι ο Γιώργος. Αυτό είναι το personal journal μου.<br>
+                <p>Γειά! Είμαι ο Γιώργος. Αυτό είναι το personal journal μου.<br>
                 Εδώ θα βρείς πληροφορίες για εμένα και τα ενδιαφέροντα μου.</p>
 
 
-                <p> Είμαι απο ένα μικρό χωριό των Σερρών, την Κρηνίδα. </p>
-                <p> Σπουδάζω Πληροφορική στο Α.Π.Θ. Στο μέλλον θέλω να ασχοληθώ με web development και android development.</p>
+                <p> Είμαι απο ένα μικρό χωριό των Σερρών, την Κρηνίδα. <br>
+                 Σπουδάζω Πληροφορική στο Α.Π.Θ. Στο μέλλον θέλω να ασχοληθώ με web development και android development. <br>
 
-               <p> Στον ελεύθερο μου χρόνο μου αρέσει να παίζω βιντεοπαιχνίδια, να βλέπω σειρές ή να ζωγραφίζω</p>
-               <p>Ακόμα, ασχολούμαι με την φωτογραφία, θέλω να μάθω παίζω πιάνο.</p>
+                Στον ελεύθερο μου χρόνο μου αρέσει να παίζω βιντεοπαιχνίδια, να βλέπω σειρές ή να ζωγραφίζω.<br>
+               Ακόμα, ασχολούμαι με την φωτογραφία, θέλω να μάθω παίζω πιάνο.</p>
                 
               </div>
           </div>
        
-          
+      
           
 
   </body>
-
+</ion-scroll>
 
 </ion-content>
